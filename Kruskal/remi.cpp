@@ -21,6 +21,7 @@ int main() {
     int N, M;
     cin >> N >> M;
 
+    // Construction of the graph
     int x, y, r;
     vector<tuple<int, int, int>> G;
     for(int i=0 ; i < M ; i++) {
