@@ -1,3 +1,7 @@
+/* https://www.hackerrank.com/challenges/maxsubarray?h_r=internal-search
+ * Complexity : O(n)
+ */
+
 #include <iostream>
 #include <stdlib.h>
 
