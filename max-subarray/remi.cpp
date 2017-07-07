@@ -8,7 +8,7 @@
 using namespace std;
 
 
-#define MIN_VAL -10001
+#define MIN_VAL -10001;
 
 int main() {
     int T, N;

@@ -16,7 +16,7 @@ void dicho(int x,vector<int> &sub,int i,int j){
 }
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
     int N; cin >> N;
     vector<int> seq(N);
     for(int i = 0; i < N; i++) cin >> seq[i];
@@ -32,6 +32,6 @@ int main() {
         else if (seq[i] < sub.back()) dicho(seq[i],sub,0,n-1);
     }
     cout << n-1;
-    
+
     return 0;
 }
